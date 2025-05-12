@@ -19,11 +19,10 @@ public class PrintService {
     public static void print(Kogtevran[] kogtevrans) {
         System.out.println("Список студентов Kogtevran: ");
         for (int i = 0; i < kogtevrans.length; i++) {
-            System.out.println("Имя: " + kogtevrans[i].getName() + ", Фамилия: " + kogtevrans[i].getSurname() + ", колдовство: " + kogtevrans[i].getConjure() + ", " + "трансгрессирование: " + kogtevrans[i].getTransgress() + ", ум: " + kogtevrans[i].getMind() + ", мудрость: " + kogtevrans[i].getWisdom() + ", остроумие: " + kogtevrans[i].getWit() + ", творчество" + kogtevrans[i].getCreativity());
+            System.out.println("Имя: " + kogtevrans[i].getName() + ", Фамилия: " + kogtevrans[i].getSurname() + ", " + "колдовство: " + kogtevrans[i].getConjure() + ", " + "трансгрессирование: " + kogtevrans[i].getTransgress() + ", ум: " + kogtevrans[i].getMind() + ", мудрость: " + kogtevrans[i].getWisdom() + ", остроумие: " + kogtevrans[i].getWit() + ", творчество" + kogtevrans[i].getCreativity());
         }
         System.out.println();
     }
-
 
     public static void print(Slytherin[] slytherins) {
         System.out.println("Список студентов Slytherin: ");
